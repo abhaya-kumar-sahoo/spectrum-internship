@@ -1,0 +1,181 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+ .headers{
+   position: relative;
+display: flex;
+
+ }
+.logo img{
+  border-radius: 50%;
+  height:4rem;
+}
+body{ width: 100vw;overflow-x: hidden; }
+
+/* @media screen and (max-width:600px){
+  .cards{
+    background-color: burlywood;
+    margin-top: -70vh;
+  }
+   
+} */
+.cards{
+
+  text-align: center;
+justify-content: center;
+align-items: center;
+align-content: center;
+
+}
+.footer{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.781);
+  border-top: 3px solid rgb(30, 255, 0);
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+.bgimage{
+
+}
+@media screen and (max-width:600px) {
+  .bgimage{
+  
+  background-size: 100vw;
+  }
+  .cards{
+    margin-top: -65vh;
+  }
+  .logo img{
+    border-radius: 50%;
+    height:4rem;
+  }
+  .main-nav{
+ 
+    height: 9vh;
+  }
+  .myside{
+    font-weight: 900;
+    font-size: 40px;
+    margin-right: 6vh;
+    
+  }
+  .spectrum h1{
+    
+    margin-left: -7vh;
+  }
+  .abs{
+   
+    padding-left: 1vh;
+    
+  }
+  .logo img{
+  height: 7vh;
+  padding-left: -10vh;
+  }
+}
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: linear-gradient(to top left, #ffae00c0, #880f15);
+  z-index: 1;
+  position: fixed;
+  height: 12vh;
+}
+.tem{
+  width: 100%;
+  text-align: center;
+  padding: 10vh;
+  color: white;
+  background-color: #815a5c;
+}
+.myside{
+  font-weight: 900;
+  font-size: 40px;
+  margin-right: 10vh;
+  
+}
+.spectrum{
+  color: white;
+  padding-left:10vh ;
+}
+.abs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding-left: 10vh;
+  justify-content: space-between;
+}
+
+.navbar{
+
+  width: 40vh;
+  background: linear-gradient(to top left, #0400ffc0, #ff3d00);
+  height: 75vh;
+  margin-top: 16vh;
+  margin-left: -40vh;
+  transition: width 2s, height 2s, transform 2s;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  transition: 1s;
+  border-radius: 10px;
+} 
+h4{
+  font-weight: 900;
+}
+/* .navbar:hover {
+  transform: rotate(180deg);
+} */
+.ul li{
+  padding: 20px;
+  width: 200px;
+  list-style: none;
+  margin-top:2vh ;
+  background-color: rgb(161, 123, 187);
+  border-radius: 10px;
+  transition: width 1s, height 1s, transform 1s;
+} 
+#navbar{
+  transition: width 2s, height 2s, transform 2s;
+  transform: rotate(180deg);
+}
+ button{
+   margin-left: 34vh;
+   padding: 0px 10px 0px 10px;
+   color: red;
+   font-weight: 900;
+} 
+ .ul li:hover {
+  transform: rotate(360deg);
+  background: linear-gradient(to top left, #003cff 4%, #ff0095 96%);
+  font-weight: 900;
+} 
+
+ .ul{
+  
+  padding-top: 2vh;
+  
+}
+#foot{
+  
+  background-color: red;
+}
+.team{
+  display: flex;
+  overflow-x: scroll;
+}
+i{
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+}
